@@ -236,6 +236,7 @@ footer a.nav_on .finance {
 	border-top: 1px solid #fff;
 	cursor: pointer;
 	overflow: hidden;
+	font-size:13px;
 }
 .orderList li img,.orderList li span {
 	vertical-align: middle;
