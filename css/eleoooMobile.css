@@ -235,8 +235,7 @@ footer a.nav_on .finance {
 	background:url(../images/u_sprite_0325.png) left -474px;
 	border-top: 1px solid #fff;
 	cursor: pointer;
-	overflow: hidden;
-	font-size:14px;
+	overflow: hidden;	
 }
 .orderList li img,.orderList li span {
 	vertical-align: middle;
@@ -251,7 +250,7 @@ footer a.nav_on .finance {
 	color: rgb(51,51,51);
 	display: block;
 	float: left;
-	font-size: 12px;
+	font-size: 13px;
 }
 .orderList li span.pRight {
 	float: right;
