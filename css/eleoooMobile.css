@@ -744,6 +744,9 @@ span.time {
 }
 .green {
 	background: rgb(102, 188, 41);
+	background: -webkit-linear-gradient(rgb(96, 189, 0), rgb(73, 165, 0));
+	background: -moz-linear-gradient(rgb(96, 189, 0), rgb(73, 165, 0));
+	background: -o-linear-gradient(rgb(96, 189, 0), rgb(73, 165, 0));
 	border: 1px solid rgb(44, 142, 0);
 	overflow: hidden;
 	text-shadow: 0px -1px 1px #448f00;
@@ -751,6 +754,9 @@ span.time {
 }
 .orange {
 	background: rgb(247,141,29);
+	background: -webkit-linear-gradient(rgb(255, 173, 55), rgb(247,141,29));
+	background: -moz-linear-gradient(rgb(255, 173, 55), rgb(247,141,29));
+	background: -o-linear-gradient(rgb(255, 173, 55), rgb(247,141,29));
 	border: 1px solid #d97d00;
 	text-shadow: 0px -1px 1px #9f4900;
 	color: #fff;
@@ -776,11 +782,17 @@ span.time {
 }
 .dark {
 	background: rgb(76,77,82);
+	background: -webkit-linear-gradient(rgb(96, 98, 104), rgb(76,77,82));
+	background: -moz-linear-gradient(rgb(96, 98, 104), rgb(76,77,82));
+	background: -o-linear-gradient(rgb(96, 98, 104), rgb(76,77,82));
 	border: 1px solid #202023;
 	text-shadow: 0px -1px 1px #333;
 }
 .yellow {
 	background: rgb(241,166,34);
+	background: -webkit-linear-gradient(rgb(246, 192, 46), rgb(241,166,34));
+	background: -moz-linear-gradient(rgb(246, 192, 46), rgb(241,166,34));
+	background: -o-linear-gradient(rgb(246, 192, 46), rgb(241,166,34));
 	border: 1px solid #b87c14;
 	text-shadow: 0px -1px 1px #9f4900;
 	color: #fff;
