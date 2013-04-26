@@ -765,9 +765,11 @@ span.time {
 	color: #312c2a;
 	font-size: 18px;
 }
-.red {
-	background: -webkit-linear-gradient(rgb(243, 42, 27), rgb(213, 37, 24));
+.red {	
 	background: rgb(213,37,24);
+	background: -webkit-linear-gradient(rgb(243, 42, 27), rgb(213, 37, 24));
+	background: -moz-linear-gradient(rgb(243, 42, 27), rgb(213, 37, 24));
+	background: -o-linear-gradient(rgb(243, 42, 27), rgb(213, 37, 24));
 	border: 1px solid #98140f;
 	text-shadow: 0px -1px 1px #6b1000;
 	color: #fff;
