@@ -462,7 +462,7 @@ span.time {
 	background: -ms-linear-gradient(#fff, #f3f3f3);
 	background: linear-gradient(#fff, #f3f3f3);
 	cursor: pointer;
-	padding: 4px 15px 6px 15px;
+	padding: 5px 15px 7px 15px;
 	color: #948b7e;
 	line-height: 18px;
 }
