@@ -240,16 +240,18 @@ footer a.nav_on .finance {
 .orderList li img,.orderList li span {
 	vertical-align: middle;
 }
-.orderList li span u {
-	display: block;
-	text-decoration: none;
-	color: rgb(148,139,126);
-}
+
 .orderList li span {
 	padding: 0 8px;
 	color: rgb(51,51,51);
 	display: block;
 	float: left;
+	font-size: 13px;
+}
+.orderList li span u {
+	display: block;
+	text-decoration: none;
+	color: rgb(148,139,126);
 	font-size: 13px;
 }
 .orderList li span.pRight {
