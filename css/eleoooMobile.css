@@ -888,6 +888,6 @@ span.price {
 }
 .s2 i {
 	color: #f8ad29;
-	padding-right: 3px;
-	background:#f00;
+	padding-right: 6px;
+	font-size:12px;
 }
