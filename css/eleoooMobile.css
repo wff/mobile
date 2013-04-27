@@ -235,22 +235,25 @@ footer a.nav_on .finance {
 	background:url(../images/u_sprite_0325.png) left -474px;
 	border-top: 1px solid #fff;
 	cursor: pointer;
-	overflow: hidden;
+	overflow: hidden;	
 }
 .orderList li img,.orderList li span {
 	vertical-align: middle;
 }
-.orderList li span u {
-	display: block;
-	text-decoration: none;
-	color: rgb(148,139,126);
-}
+
 .orderList li span {
 	padding: 0 8px;
 	color: rgb(51,51,51);
 	display: block;
 	float: left;
-	font-size: 12px;
+	font-size: 14px;
+	font-family: YaHei,Helvetica,Tahoma,sans-serif;
+}
+.orderList li span u {
+	display: block;
+	text-decoration: none;
+	color: rgb(148,139,126);
+	font-size: 13px;
 }
 .orderList li span.pRight {
 	float: right;
@@ -271,7 +274,7 @@ footer a.nav_on .finance {
 	background: #595a60;
 	color: #ffffff;
 	line-height: 16px;
-	padding: 10px 10px 14px 10px;
+	padding: 6px 10px 10px 10px;
 	font-size: 12px;
 	position: fixed;
 	bottom: 50px;
@@ -460,9 +463,9 @@ span.time {
 	background: -ms-linear-gradient(#fff, #f3f3f3);
 	background: linear-gradient(#fff, #f3f3f3);
 	cursor: pointer;
-	padding: 5px 15px;
+	padding: 5px 15px 7px 15px;
 	color: #948b7e;
-	line-height: 20px;
+	line-height: 18px;
 }
 .rush_record li span {
 	padding-right: 10px;
@@ -744,6 +747,9 @@ span.time {
 }
 .green {
 	background: rgb(102, 188, 41);
+	background: -webkit-linear-gradient(rgb(96, 189, 0), rgb(73, 165, 0));
+	background: -moz-linear-gradient(rgb(96, 189, 0), rgb(73, 165, 0));
+	background: -o-linear-gradient(rgb(96, 189, 0), rgb(73, 165, 0));
 	border: 1px solid rgb(44, 142, 0);
 	overflow: hidden;
 	text-shadow: 0px -1px 1px #448f00;
@@ -751,6 +757,9 @@ span.time {
 }
 .orange {
 	background: rgb(247,141,29);
+	background: -webkit-linear-gradient(rgb(255, 173, 55), rgb(247,141,29));
+	background: -moz-linear-gradient(rgb(255, 173, 55), rgb(247,141,29));
+	background: -o-linear-gradient(rgb(255, 173, 55), rgb(247,141,29));
 	border: 1px solid #d97d00;
 	text-shadow: 0px -1px 1px #9f4900;
 	color: #fff;
@@ -765,7 +774,7 @@ span.time {
 	color: #312c2a;
 	font-size: 18px;
 }
-.red {	
+.red {
 	background: rgb(213,37,24);
 	background: -webkit-linear-gradient(rgb(243, 42, 27), rgb(213, 37, 24));
 	background: -moz-linear-gradient(rgb(243, 42, 27), rgb(213, 37, 24));
@@ -776,11 +785,17 @@ span.time {
 }
 .dark {
 	background: rgb(76,77,82);
+	background: -webkit-linear-gradient(rgb(96, 98, 104), rgb(76,77,82));
+	background: -moz-linear-gradient(rgb(96, 98, 104), rgb(76,77,82));
+	background: -o-linear-gradient(rgb(96, 98, 104), rgb(76,77,82));
 	border: 1px solid #202023;
 	text-shadow: 0px -1px 1px #333;
 }
 .yellow {
 	background: rgb(241,166,34);
+	background: -webkit-linear-gradient(rgb(246, 192, 46), rgb(241,166,34));
+	background: -moz-linear-gradient(rgb(246, 192, 46), rgb(241,166,34));
+	background: -o-linear-gradient(rgb(246, 192, 46), rgb(241,166,34));
 	border: 1px solid #b87c14;
 	text-shadow: 0px -1px 1px #9f4900;
 	color: #fff;
@@ -873,5 +888,6 @@ span.price {
 }
 .s2 i {
 	color: #f8ad29;
-	padding-right: 10px;
+	padding-right: 6px;
+	font-size:12px;
 }
